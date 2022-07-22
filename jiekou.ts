@@ -19,3 +19,6 @@ function initLab( label: LabelVal ) {
 let lab = {label: " I am string", age: 13}
 
 initLab(lab)
+// a
+
+// b
