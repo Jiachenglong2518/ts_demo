@@ -21,7 +21,6 @@ let lab = {label: " I am string", age: 13}
 initLab(lab)
 // a
 
-<<<<<<< HEAD
 // b
 
 // 5
@@ -35,6 +34,3 @@ initLab(lab)
 // 9
 
 // 10
-=======
-// b
->>>>>>> b3d0ea0...  reset -2
