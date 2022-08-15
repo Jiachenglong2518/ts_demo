@@ -58,3 +58,25 @@ initLab ({label: " I am string", age: 13, sex: "1"})
 // 13 git cherry-pick b3d0ea
 
 // 14
+=======
+// 接口
+interface LabelVal {
+  label: string
+  name?: string // 可选参数
+  readonly age ?: number
+}
+function initLab( label: LabelVal ) {
+  console.log(label);
+  let obj = {name: "I am obj"}
+  if (label.name) {
+    obj.name = label.name
+  }
+  console.log(obj);
+  // label.age = 13 只读属性
+  return obj
+  
+}
+
+let lab = {label: " I am string", age: 13, sex: "1"} // [m2]
+
+initLab(lab)
